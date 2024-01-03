@@ -1,0 +1,25 @@
+ul{
+    list-style-type:circle; /*Symbol used for bullets can be changed */
+}
+.one{
+    color: aquamarine;
+    background-color:crimson;
+}
+.two{
+    color: blue;
+    background-color: cornsilk;
+}
+.three{
+    color: orange;
+    background-color: black;
+}
+.four{
+    color: aqua;
+    background-color: gray;
+}
+h2.sh{ /*Here we are selecting h2 which has class=sh and ignoring any other having same class */
+    color:brown
+}
+h1+p{ /* taking p tag just after a h1 tag*/
+    color: gold;
+}

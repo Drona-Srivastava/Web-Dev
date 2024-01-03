@@ -1,0 +1,9 @@
+* { /*Selects evrything in page to set properties*/
+    background-color: black;
+}
+h1,h2,h3{ /*Colors multiple tags at once */
+    color: blue;
+}
+h4,h5,h6{
+    color: orange;
+}

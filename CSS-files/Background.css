@@ -1,0 +1,18 @@
+.background{
+    background-image: url("../HTML/Screenshot\ 2023-12-31\ 183648.png");
+    background-repeat: no-repeat;
+    background-size:150px;
+    background-position:left;    
+    background-attachment: fixed; /*Image stays fixed to a position the content moves*/
+    /*in scroll image moves with content */
+    height:2000px;
+    width: 2000px;
+}
+h1{
+    color:orange;
+}
+/*font-family to choose type of font 
+font-style for italics oblique etc
+font-size for size of font
+font-weigth for bold etc    100-900 400:normal 700:bold 
+google font for diff fonts get font-family code from there only  */

@@ -1,0 +1,12 @@
+p{ /* colours every p tag*/
+    color: orange;
+}
+* {
+    background-color: black;
+}
+#first{ /* if used id in tag use '#' if class use '.' */
+    color: aquamarine;
+} 
+.second::first-line{ /*here we coloured the first line of para named class='Second' */
+    color: blue;
+}
