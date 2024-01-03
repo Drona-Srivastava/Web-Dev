@@ -2,37 +2,86 @@
 <html>
     <head>
         <title> 
-            Contact Form
+            Feedback Form
         </title>
-        <link rel="stylesheet" href="./Contact-From.css">
+        <link rel="stylesheet" href="./Feedback-From.css">
     </head>
     <body>
         <div class="container">
             <form>
                 <header>
-                    Contact Form <br>
+                    Feedback Form <br>
                     <hr>
-                    Please fill out all the details
+                    Tell us about your visit
                 </header>
                 <main>
                     <p>
-                        Your Name:*<br>
+                        Your Name:<br>
                         <input type="text" required placeholder="Your Full Name" class="fname">
                     </p>
                     <p>
-                        Your Email:* <br>
+                        Your Email: <br>
                         <input type="email" required placeholder="Your Email" class="mail">
                     </p>
-                    <p> Message:
-                        <br>
-                        <textarea rows="10" cols="50" placeholder="Your Message for us" class="msg"></textarea>
+                    <p>
+                        Was This Your First Visit To The Restaurant: <br>
+                        Yes <input type="radio" name="visit" id="yes" required><br>
+                        No <input type="radio" name="visit" id="no" required>
+                    </p>
+                    <p class="cent">
+                        How did we do?
+                    </p>
+                    <p class="choose">
+                        Excellent |  Good |  Could be better |  Not Good |Worst<br>
                     </p>
                     <p>
-                        Subject: <br>
-                        <input required type="text" placeholder="Job Enquiry" class="sub">
+                        Freshness of Food: <input type="radio" id="ex1" required name="choice1"> 
+                        <input type="radio" id="go1" required name="choice1">
+                        <input type="radio" id="cbb1" required name="choice1">
+                        <input type="radio" id="ng1" required name="choice1">
+                        <input type="radio" id="w1" required name="choice1"><br>
+                        Taste of Food: <input type="radio" id="ex2" required name="choice2"> 
+                        <input type="radio" id="go2" required name="choice2">
+                        <input type="radio" id="cbb2" required name="choice2">
+                        <input type="radio" id="ng2" required name="choice2">
+                        <input type="radio" id="w2" required name="choice2"><br>
+                        Presentation of Food: <input type="radio" id="ex3" required name="choice3"> 
+                        <input type="radio" id="go3" required name="choice3">
+                        <input type="radio" id="cbb3" required name="choice3">
+                        <input type="radio" id="ng3" required name="choice3">
+                        <input type="radio" id="w3" required name="choice3"><br>
+                        Quality of Food: <input type="radio" id="ex4" required name="choice4"> 
+                        <input type="radio" id="go4" required name="choice4">
+                        <input type="radio" id="cbb4" required name="choice4">
+                        <input type="radio" id="ng4" required name="choice4">
+                        <input type="radio" id="w4" required name="choice4"><br>
+                        Variety of Food: <input type="radio" id="ex5" required name="choice5"> 
+                        <input type="radio" id="go5" required name="choice5">
+                        <input type="radio" id="cbb5" required name="choice5">
+                        <input type="radio" id="ng5" required name="choice5">
+                        <input type="radio" id="w5" required name="choice5"><br>
+                        Staff Behaviour: <input type="radio" id="ex6" required name="choice6"> 
+                        <input type="radio" id="go6" required name="choice6">
+                        <input type="radio" id="cbb6" required name="choice6">
+                        <input type="radio" id="ng6" required name="choice6">
+                        <input type="radio" id="w6" required name="choice6"><br>
+                        Ambience: <input type="radio" id="ex7" required name="choice7"> 
+                        <input type="radio" id="go7" required name="choice7">
+                        <input type="radio" id="cbb7" required name="choice7">
+                        <input type="radio" id="ng7" required name="choice7">
+                        <input type="radio" id="w7" required name="choice7"><br>
+                    </p>
+                    </p>
+                    <p> 
+                        Suggestion:
+                        <br>
+                        <textarea rows="10" cols="50" placeholder="Your Suggestion" class="msg"></textarea>
                     </p>
                     <p>
                         <input type="submit" value="Submit" class="btn">
+                    </p>
+                    <p class="final">
+                        We value your feedback! <br>Your input helps us improve our services to better serve you.
                     </p>
                 </main>
             </form>
