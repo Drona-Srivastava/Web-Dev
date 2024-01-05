@@ -99,3 +99,33 @@ img.user{
     right: 2%;
     clip-path: circle(50% at 50% 50%);
 }
+
+div.search-button{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+
+}
+
+button.search-button{
+    padding: 12px 16px;
+    font-size: 15px;
+    background-color:#303134 ;
+    border: 1px ;
+    border-radius: 10px;
+}
+
+div.feeling{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+
+}
+
+button.feeling-lucky{
+    padding: 12px 16px;
+    font-size: 15px;
+    background-color:#303134 ;
+    border: 1px ;
+    border-radius: 10px;
+}
