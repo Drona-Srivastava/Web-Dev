@@ -129,3 +129,23 @@ button.feeling-lucky{
     border: 1px ;
     border-radius: 10px;
 }
+
+.hindi,
+.marathi,
+.bangla,
+.tamil,
+.punjabi,
+.gujurati,
+.offer{
+    margin: 5px;
+}
+
+div.offered{
+    position: absolute;
+    top: 60%;
+    left: 36%;
+}
+
+span.offer{
+    font-size: 20px;
+}
