@@ -27,7 +27,7 @@ div.search{
     height: 100px;
     position: absolute;
     top:18%;
-    left: 39%;
+    left:41.5%;
     padding: 10px;
     border: 2px ;
 }
@@ -35,7 +35,7 @@ div.search{
 div.search-bar{
     position: absolute;
     top: 38%;
-    left: 28%;
+    left: 30%;
     border: 1px solid gray;
     border-radius: 30px;
     width: 700px;
