@@ -1,0 +1,15 @@
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid teal;
+    background: teal;
+    color: blanchedalmond;
+    box-shadow: 1px 1px 2px blueviolet;
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
