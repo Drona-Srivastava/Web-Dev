@@ -13,3 +13,5 @@ console.log(b)
 //console.log(b)
 
 // let keyword lets us create local variable with same name whereas var does not allow us to use same name for another local variable if we try to do so the global variable value will be changes
+//Object --> Key:Value Pairs
+const item = {name:"Drona", Age:"19"}
