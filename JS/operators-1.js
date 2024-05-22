@@ -45,6 +45,9 @@ console.log(x>y || x==5)
 console.log(!false)
 console.log(!true)
 
+//Ternary operators
+//condition ? expressifTrue : expressionifFalse
+5>6?console.log("5 is greater"):console.log("5 is smaller");
 // Comments
 // This is a single line comment
 /* This is a sample multiline comment and a tutorial
