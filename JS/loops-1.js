@@ -25,7 +25,7 @@ do{
 //for-of loop  -- could be used to iterate strings!!
 let str = "Drona Srivastava";
 let len = 0;
-for(let i of str){
+for(let i of str){  // i is not the index it is the value in the array or string
     console.log(i);
     len++;
 }
