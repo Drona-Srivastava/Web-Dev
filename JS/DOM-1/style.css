@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(156, 83, 83) ;
+}
+h1 {
+    color: blue;
+    font-size: 50px;
+}
+p {   
+    color: aqua;
+    font-size: 40px;
+}
+button{
+    border-radius: 40%;
+    background-color: black;
+    color: azure;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
