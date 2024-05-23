@@ -1,0 +1,21 @@
+types of events
+1. Mouse events(click,double click, etc..)
+2. keyboard evenets(keypress,keyup,keydown)
+3. Form events (submit etc..)
+4. print event and more
+
+
+Event object 
+it is a special object which has details about the Event
+all event handlers have access to the event object's properties and methods
+denoted as 
+node.event = (e) =>{
+
+}
+here e is a veriable for event object could be any thing else       
+
+
+Event Listeners
+same event can have many eventlistener  
+node.addEventListener(event,function)
+node.removeEventlistener(event,function)
