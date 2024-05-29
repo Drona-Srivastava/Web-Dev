@@ -1,0 +1,40 @@
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around; 
+}
+
+div.card{
+    border: 2px solid tan;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 10px 5px 20px black;
+    width: 400px;
+}
+
+div.card img{
+    height: 200px;
+    width: 402px;
+    border-radius: 10px;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+    position: relative;
+    float:unset;
+    top: 0%;
+}
+
+div.card a{
+    background-color: tan;
+    text-decoration: none;
+    color: black;
+    border: 2px solid tan;
+    border-radius: 7px;
+    padding: 10px;
+    position: relative;
+    top: 1%;
+    left: 30%;
+}
+

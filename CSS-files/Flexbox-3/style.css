@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+nav,
+header,
+div.article,
+footer{
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 40px;
+}
+
+nav{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 95.3%;
+    background-color: palegoldenrod;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 91.4%;
+    background-color: greenyellow;
+}
+
+div.article {
+    position: absolute;
+    right: 0%;
+    top: 11%;
+    width: 91.4%;
+    height: 600px;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 91.4%;
+    background-color: greenyellow;
+}

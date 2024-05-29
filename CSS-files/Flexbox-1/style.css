@@ -1,0 +1,106 @@
+div.container{
+    display:flex;
+    gap: 5px;
+    padding: 8px;
+}
+
+.flex-box{
+    width: 450px;
+    background-color: beige;
+    border:2px solid black;
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-content: stretch;
+    background-color: rgb(113, 17, 17);
+}
+
+.child{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-content: space-around;
+    padding: 8px;
+}
+
+.child-box{
+    border: 2px solid peachpuff ;
+    background-color: peachpuff;
+    border-radius: 5px;
+    color: black;
+    width: 30%;
+}
+
+#child-1{
+    margin-left: 5px;
+}
+
+div.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-content: space-around;
+    padding: 8px;
+}
+
+div.child2{
+    border: 2px solid peachpuff ;
+    background-color: peachpuff;
+    border-radius: 5px;
+    color: black;
+    width: 23%;
+}
+
+div.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-content: space-around;
+    padding: 8px;
+}
+
+div.child3{
+    border: 2px solid peachpuff ;
+    background-color: peachpuff;
+    border-radius: 5px;
+    color: black;
+    width: 17%;
+}
+
+div.container-4{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 8px;
+}
+
+div.child4{
+    width: 335px;
+    background-color: beige;
+    border:2px solid black;
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-content: stretch;
+    background-color: rgb(113, 17, 17);
+}
+
+div.child5{
+    width: 266px;
+    background-color: beige;
+    border:2px solid black;
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-content: stretch;
+    background-color: rgb(113, 17, 17);
+}
+div.container-5{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 8px;
+}
