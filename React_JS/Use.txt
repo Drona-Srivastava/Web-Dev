@@ -1,0 +1,10 @@
+JS Library
+For single page application --> Help in User Experience
+By Facebook
+Is the view layer of MVC application (Model View Controller)
+Declarative View :- Only the UI updates not the whole page
+It is component based UI Library
+Everything is whole different Library
+Real DOM is slow React uses Virtual DOM which is faster
+Compares changes with real DOM when changes are implemented and implements only the changes in virtual DOM inside real DOM
+**** JQuery Library has shortened form of JS queries helps to write a short code ****
