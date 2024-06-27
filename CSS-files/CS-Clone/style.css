@@ -1,77 +1,76 @@
-*{
-    background-color: rgb(19, 18, 18);    
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  background-color: rgb(19, 18, 18);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-div.container-1{
-    display: flex;
-    flex-wrap: wrap;
-    height: 70px;
-    width: 50%;
-    position: absolute;
-    left: 27%;
-    top:5%;
-    color: gray;
-    font-weight: bolder;
-    justify-content: space-between;
-    align-items: baseline;
+div.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
+  width: 50%;
+  position: absolute;
+  left: 27%;
+  top: 5%;
+  color: gray;
+  font-weight: bolder;
+  justify-content: space-between;
+  align-items: baseline;
 }
-a.pic{
-    font-size: 40px;
-    color: gray;
-    text-decoration: none;
-}
-
-a.pic:hover{
-    cursor: pointer;
-    color: rgb(215, 212, 212);
+a.pic {
+  font-size: 40px;
+  color: gray;
+  text-decoration: none;
 }
 
-div.elements span{
-    color:rgb(19, 18, 18) ;
+a.pic:hover {
+  cursor: pointer;
+  color: rgb(215, 212, 212);
 }
 
-div.elements a{
-    font-size: 20px;
-    color: gray;
-    text-decoration: none;
-}
-div.elements a:hover{
-    color: rgb(215, 212, 212);
-    text-decoration: underline;
+div.elements span {
+  color: rgb(19, 18, 18);
 }
 
-div.container-2{
-    height: 70px;
-    width: 40%;
-    position: absolute;
-    left: 27%;
-    top:20%;
-    color: gray;
-    font-weight: bolder;
+div.elements a {
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+}
+div.elements a:hover {
+  color: rgb(215, 212, 212);
+  text-decoration: underline;
 }
 
-div.heading{
-    font-size:130px;
-    color: white;
+div.container-2 {
+  height: 70px;
+  width: 40%;
+  position: absolute;
+  left: 27%;
+  top: 20%;
+  color: gray;
+  font-weight: bolder;
 }
 
-div.container-3{
-    height: 70px;
-    width: 50%;
-    position: absolute;
-    left: 27%;
-    top:55%;
-    color: gray;
-    font-weight: bolder;
-    font-size: 20px;
-    justify-content: space-between;
+div.heading {
+  font-size: 130px;
+  color: white;
+}
+
+div.container-3 {
+  height: 70px;
+  width: 50%;
+  position: absolute;
+  left: 27%;
+  top: 55%;
+  color: gray;
+  font-weight: bolder;
+  font-size: 20px;
+  justify-content: space-between;
 }
 
 div.container-3 a,
-div
-{
-    color: white;
-    text-decoration: none;
+div {
+  color: white;
+  text-decoration: none;
 }
 
 div.en1,
@@ -86,16 +85,16 @@ div.en1,
 .en10,
 .en11,
 .en12,
-.en13{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 25px 0px;
-    border-bottom: 2px solid white;
+.en13 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 0px;
+  border-bottom: 2px solid white;
 }
-.e14{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 25px 0px;
+.e14 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 0px;
 }

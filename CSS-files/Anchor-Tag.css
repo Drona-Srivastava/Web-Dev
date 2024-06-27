@@ -1,8 +1,9 @@
-a:hover{
-    color: coral;
-    font-size: 150%;
-    text-decoration: none; /* Removes the line below links can also be chaned to something else*/
+a:hover {
+  color: coral;
+  font-size: 150%;
+  text-decoration: none; /* Removes the line below links can also be chaned to something else*/
 }
-body a h2.sp{ /* choose body then a tag then h2 tag with class sp*/
-    background-color:black;
+body a h2.sp {
+  /* choose body then a tag then h2 tag with class sp*/
+  background-color: black;
 }
